@@ -2,6 +2,8 @@
 
 一个画风可爱的网页贪吃蛇小游戏，纯 HTML + JavaScript，无需安装，双击打开即可玩。
 
+👉 **在线玩：https://erxiu1260-web.github.io/cute-snake/**
+
 ## 怎么玩
 
 - 打开根目录的 `index.html`，点「玩最新版」
