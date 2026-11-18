@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>萌萌贪吃蛇</title>
+<style>
+  body {
+    margin: 0; min-height: 100vh; padding: 24px 16px;
+    font-family: "Comic Sans MS", "PingFang SC", "Microsoft YaHei", sans-serif;
+    color: #6b4a5a; background: linear-gradient(135deg, #ffe3ef, #e3f1ff);
+    display: flex; flex-direction: column; align-items: center; box-sizing: border-box;
+  }
+  h1 { color: #f2689c; text-shadow: 2px 2px 0 #fff, 4px 4px 0 #ffd0e2; }
+  .card { width: min(100%, 420px); background: #fffafc; border: 4px solid #fff; border-radius: 24px;
+          padding: 18px; box-shadow: 0 8px 0 #ffc6dc; }
+  a.play { display: block; text-align: center; background: #ff8fb8; color: #fff; text-decoration: none;
+           font-size: 20px; font-weight: bold; padding: 12px; border-radius: 999px; box-shadow: 0 5px 0 #f2689c; }
+  ul { list-style: none; padding: 0; margin: 18px 0 0; }
+  li { padding: 8px 4px; border-top: 2px dashed #ffd0e2; }
+  li a { color: #f2689c; font-weight: bold; }
+</style>
+</head>
+<body>
+  <h1>🐍 萌萌贪吃蛇 🍓</h1>
+  <div class="card">
+    <a class="play" href="versions/v1/">▶ 玩最新版 (v1)</a>
+    <ul>
+      <!-- 新版本加在最上面，旧版本永远保留 -->
+      <li><a href="versions/v1/">v1</a> — 第一版：可爱小蛇、水果、星星、三档速度、手机支持</li>
+    </ul>
+  </div>
+</body>
+</html>
